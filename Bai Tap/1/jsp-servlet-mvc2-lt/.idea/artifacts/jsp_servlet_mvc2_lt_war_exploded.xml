@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jsp-servlet-mvc2-lt:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jsp_servlet_mvc2_lt_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jsp-servlet-mvc2-lt/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jsp-servlet-mvc2-lt" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
