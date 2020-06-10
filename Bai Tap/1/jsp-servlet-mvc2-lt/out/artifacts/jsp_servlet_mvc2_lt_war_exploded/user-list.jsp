@@ -10,7 +10,8 @@
 <html>
 <head>
     <title>User Management Application</title>
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 
     <style type="text/css">
         table, th, td{
@@ -37,7 +38,7 @@
     <div class="container">
         <h3 class="text-center"> List of Users </h3><hr>
         <div class="container text-left">
-            <a href="<%=request.getContextPath()%>/new" class="btn btn-success">add new User </a>
+            <a href="<%=request.getContextPath()%>/new" class="btn btn-success"> Add new User </a>
         </div><br>
         <table class="table table-bordered">
             <thead>
